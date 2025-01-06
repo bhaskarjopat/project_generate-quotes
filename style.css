@@ -1,0 +1,31 @@
+body{
+    background: rebeccapurple;
+}
+.container{
+    border: 10px double black;
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+.quotes{
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: rgb(12, 179, 212);
+    background-color: aliceblue;
+    border: 10px dashed plum;
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+@media (max-width:480px) {
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
