@@ -2,7 +2,7 @@ body{
     background: rebeccapurple;
 }
 .container{
-    border: 10px double black;
+    /* border: 10px double black; */
     width: 95%;
     height: 100vh;
     display: flex;
